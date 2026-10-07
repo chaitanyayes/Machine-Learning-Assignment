@@ -1,0 +1,1029 @@
+[
+  {
+    "scenarioId": "S01",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Hindmark Bank's share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 7%, about the same as other bank stocks, while the whole market rose about 0.8%."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 7%, more than bank stocks (about 3%) and the market (about 0.8%)."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 0.8%, in line with the whole market, while bank stocks rose about 3%."
+          },
+          {
+            "id": "d",
+            "text": "It fell about 7% in the week that its quarterly results came out."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Hindmark Bank here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Profit rose 21% in one quarter, but one quarter can be unusual and later ones may differ."
+          },
+          {
+            "id": "b",
+            "text": "There is no company risk, because the results came from an official exchange filing on 22 Jul."
+          },
+          {
+            "id": "c",
+            "text": "The rise is mostly the whole market moving, so the company does not matter."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain that the results caused the rise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. The results came out on 22 Jul, inside the window, so they are certainly the cause."
+          },
+          {
+            "id": "b",
+            "text": "No. Nothing happened at the company this week."
+          },
+          {
+            "id": "c",
+            "text": "No. The results are a likely reason, but timing alone is not proof."
+          }
+        ],
+        "correctOptionId": "c"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S02",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Coastline Bank's share price over the past month?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 5%, close to bank stocks (about 4.8%)."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 5%, far more than other bank stocks, which barely moved this month."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 1.5%, in line with the whole market, while bank stocks rose more."
+          },
+          {
+            "id": "d",
+            "text": "It fell about 5% while bank stocks rose."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Coastline Bank here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The company reported weak results this month, and the share price has not reacted yet."
+          },
+          {
+            "id": "b",
+            "text": "It has risen far ahead of other banks, so it may give back the extra gain it made."
+          },
+          {
+            "id": "c",
+            "text": "It is moving with bank stocks as a group, so a fall across banks could pull it down too."
+          },
+          {
+            "id": "d",
+            "text": "There is no risk, because the whole bank sector is rising and this bank is part of it."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain why Coastline Bank rose?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. Company news this month explains the rise, since bank stocks only rose a little."
+          },
+          {
+            "id": "b",
+            "text": "No. There was no company news, and the rise matches other bank stocks."
+          },
+          {
+            "id": "c",
+            "text": "Yes. A rising market lifts every bank equally."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S03",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Meridian Motors' share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 9%, in line with other auto stocks, while the whole market rose about 0.8%."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 1%, the same as auto stocks, after news that it will join a major index."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 9%, far more than auto stocks (about 1%)."
+          },
+          {
+            "id": "d",
+            "text": "It fell about 9% after a block deal."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Meridian Motors here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Joining a major index means the business itself has become bigger and more profitable this year."
+          },
+          {
+            "id": "b",
+            "text": "The business is unchanged, and a rise from one-off index buying can fade once it is done."
+          },
+          {
+            "id": "c",
+            "text": "A block deal means the promoters are leaving the company."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain that joining the index caused the rise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "No. The index news and block deal are likely reasons, but timing is not proof."
+          },
+          {
+            "id": "b",
+            "text": "Yes. The index news and the block deal came out in the same week, so they are certainly the cause."
+          },
+          {
+            "id": "c",
+            "text": "No. The company had no news this week."
+          }
+        ],
+        "correctOptionId": "a"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S04",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Northstar Infotech's share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It fell about 2%, the same as other IT stocks, while the whole market rose about 0.8%."
+          },
+          {
+            "id": "b",
+            "text": "It fell about 12%, the same as the whole market."
+          },
+          {
+            "id": "c",
+            "text": "It fell about 12%, far more than IT stocks (about 2%), while the market rose."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Northstar Infotech here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It now expects 3–5% revenue growth, not 7–9%, and slower growth may continue."
+          },
+          {
+            "id": "b",
+            "text": "The fall means the shares now cost less, so the risk of owning them has gone down."
+          },
+          {
+            "id": "c",
+            "text": "All IT stocks fell about 12% this week, so the problem is the whole sector, not the company."
+          },
+          {
+            "id": "d",
+            "text": "Its revenue is now shrinking by 3–5% a year."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain that the outlook cut caused the fall?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. The company announced the cut itself, so it is certainly the cause of the whole fall."
+          },
+          {
+            "id": "b",
+            "text": "No. The outlook cut is a likely reason, but timing is not proof of cause."
+          },
+          {
+            "id": "c",
+            "text": "No. The whole market fell just as much."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S05",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Skyreach Telecom's share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It fell about 5%, in line with other telecom stocks and the whole market."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 5% on stake-sale reports."
+          },
+          {
+            "id": "c",
+            "text": "It fell about 5%, far more than telecom stocks (about 0.5%)."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Skyreach Telecom here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Both outlets agree the promoters are reducing their stake."
+          },
+          {
+            "id": "b",
+            "text": "It has heavy debt (debt to equity about 2.8) and losses, and the news reports conflict."
+          },
+          {
+            "id": "c",
+            "text": "Its debt is low and it makes steady profits, so the stake-sale reports do not matter much."
+          },
+          {
+            "id": "d",
+            "text": "The fall matches the whole telecom sector, so there is no company-specific risk to notice."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain why Skyreach Telecom fell?",
+        "options": [
+          {
+            "id": "a",
+            "text": "No. Two outlets report opposite things, so the fall is only partly explained."
+          },
+          {
+            "id": "b",
+            "text": "Yes. A promoter stake sale has been confirmed by both outlets, so the reason is known."
+          },
+          {
+            "id": "c",
+            "text": "Yes. The whole market fell by the same amount this week, which explains the fall."
+          }
+        ],
+        "correctOptionId": "a"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S06",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Kirti Engineering's share price over the past month?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 40% in the month after winning a ₹420 crore order."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 4%, more than its sector (about 1%) and the market (about 1.5%)."
+          },
+          {
+            "id": "c",
+            "text": "It fell about 4% over the month while capital goods stocks rose about 1%."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Kirti Engineering here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A ₹420 crore order was announced this month, so the rise already has a clear explanation."
+          },
+          {
+            "id": "b",
+            "text": "One large order means its revenue is now secure for years, whatever happens to new orders."
+          },
+          {
+            "id": "c",
+            "text": "The rise matches the whole market exactly, so there is nothing about the company to check."
+          },
+          {
+            "id": "d",
+            "text": "The only news is a ₹420 crore order from four months ago, too old to explain this month's rise."
+          }
+        ],
+        "correctOptionId": "d"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain what caused the rise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. The ₹420 crore order caused it, because orders always lift a share price over time."
+          },
+          {
+            "id": "b",
+            "text": "Yes. The whole capital goods sector rose by the same amount this month."
+          },
+          {
+            "id": "c",
+            "text": "No. No clear company-specific reason was found; the only news is too old."
+          }
+        ],
+        "correctOptionId": "c"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S07",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Sahyog Finance's share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 4%, more than financial services stocks (about 0.5%)."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 0.5%, in line with financial services stocks and the whole market."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 4% in the week after it published its quarterly results."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Sahyog Finance here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The AGM notice shows the company is in trouble."
+          },
+          {
+            "id": "b",
+            "text": "Missing figures mean nothing is wrong, since a company would always report any problem."
+          },
+          {
+            "id": "c",
+            "text": "Key data is missing: its ROE, its promoter pledge figure and its last results date."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain why Sahyog Finance rose?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. The AGM notice explains the rise, since it was the only company news this week."
+          },
+          {
+            "id": "b",
+            "text": "No. No clear reason was found; the only news is a routine AGM notice."
+          },
+          {
+            "id": "c",
+            "text": "Yes. Every NBFC rose by the same amount this week, so the sector explains the rise."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S08",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Brightpath Learning's share price over the past month?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 40%, in line with other consumer services stocks over the month."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 4%, a little more than the market."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 40%, while its sector rose about 2%."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Brightpath Learning here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Social media buzz shows that the business is growing fast, even if the latest numbers lag."
+          },
+          {
+            "id": "b",
+            "text": "Revenue fell 14%, it lost ₹48 crore and promoters pledged 62% of their shares."
+          },
+          {
+            "id": "c",
+            "text": "The company told the exchange about a big new deal."
+          },
+          {
+            "id": "d",
+            "text": "Pledged shares mean the promoters are adding to their stake, which shows their confidence."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain why Brightpath Learning rose?",
+        "options": [
+          {
+            "id": "a",
+            "text": "No. No clear company-specific reason was found, and social media buzz is not a reason."
+          },
+          {
+            "id": "b",
+            "text": "Yes. A 40% rise in a month means there has to be a hidden company reason behind it."
+          },
+          {
+            "id": "c",
+            "text": "Yes. The company's reply to the exchange confirms the reason for the rise."
+          }
+        ],
+        "correctOptionId": "a"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S09",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Dhanvi Consumer's share price over the past 6 months?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It fell about 15% over 6 months while other FMCG stocks rose."
+          },
+          {
+            "id": "b",
+            "text": "It fell about 15%, close to FMCG stocks (about 13%), while the market rose."
+          },
+          {
+            "id": "c",
+            "text": "It fell about 4%, in line with the whole market, while FMCG stocks fell more."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Dhanvi Consumer here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Its profits are falling fast."
+          },
+          {
+            "id": "b",
+            "text": "It has a lot of debt, which explains why the price fell more than the whole market."
+          },
+          {
+            "id": "c",
+            "text": "A steady business means the price has to recover soon, so the fall carries little risk."
+          },
+          {
+            "id": "d",
+            "text": "Steady profits and low debt did not stop the fall, and do not promise a recovery."
+          }
+        ],
+        "correctOptionId": "d"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain why Dhanvi Consumer fell?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. The company's own results caused it, since profits stopped growing this year."
+          },
+          {
+            "id": "b",
+            "text": "No. No company-specific reason was found; the fall mostly matches FMCG stocks."
+          },
+          {
+            "id": "c",
+            "text": "Yes. The whole market fell about 15% over the same 6 months, which explains it."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S10",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Rangoli Paints' share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The price crashed about 50%, so the company lost half its value in one day."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 50% on free bonus shares."
+          },
+          {
+            "id": "c",
+            "text": "The quoted price halved on 22 Jul after a 1:1 bonus; adjusted for it, the stock rose about 0.9%."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Rangoli Paints here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reading the halved price as a crash, when a holding's value did not change."
+          },
+          {
+            "id": "b",
+            "text": "The company is in trouble, since its price halved."
+          },
+          {
+            "id": "c",
+            "text": "Free bonus shares double the value of a holding, so holders gained overnight."
+          },
+          {
+            "id": "d",
+            "text": "The bonus means the company paid out half its profit in cash to shareholders."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is the cause of the price change on 22 Jul certain?",
+        "options": [
+          {
+            "id": "a",
+            "text": "No. Nobody knows why the price halved, since the company gave no reason at all."
+          },
+          {
+            "id": "b",
+            "text": "Yes. The drop matches the 1:1 bonus, a known mechanical cause."
+          },
+          {
+            "id": "c",
+            "text": "Yes. Investors left in a hurry after the company reported a loss for the quarter."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S11",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Prakriti Energy's share price in the 5 trading days to 21 Jul?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 12%, far more than energy stocks and the whole market."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 1.2%, about the same as the whole market."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 1.2% up to today, 24 Jul, in line with energy stocks."
+          },
+          {
+            "id": "d",
+            "text": "It fell about 1.2% while the market rose."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Prakriti Energy here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The company has stopped trading on the exchange, so its shares cannot change hands."
+          },
+          {
+            "id": "b",
+            "text": "A delayed price feed means the company is hiding news from its shareholders."
+          },
+          {
+            "id": "c",
+            "text": "The prices are three trading days old, so decisions could rest on old numbers."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain what caused the 1.2% move?",
+        "options": [
+          {
+            "id": "a",
+            "text": "No. The move matches the market, and no company-specific reason was found."
+          },
+          {
+            "id": "b",
+            "text": "Yes. Company news on 21 Jul caused it."
+          },
+          {
+            "id": "c",
+            "text": "Yes. The delay in the price feed caused the rise, since fewer trades were recorded."
+          }
+        ],
+        "correctOptionId": "a"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S12",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Kestrel Renewables' share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 5% in total over the week, the size of one daily price limit."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 27.6%, like other energy stocks."
+          },
+          {
+            "id": "c",
+            "text": "It hit its upper circuit five days running, up about 27.6%."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Kestrel Renewables here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Revenue is ₹6.2 crore with a ₹2.2 crore loss, yet it is valued at about 240 times revenue."
+          },
+          {
+            "id": "b",
+            "text": "Five upper circuits in a row show that the business has grown very fast this year."
+          },
+          {
+            "id": "c",
+            "text": "Extra surveillance means the exchange has checked the stock and approves of it."
+          },
+          {
+            "id": "d",
+            "text": "Its revenue of ₹6.2 crore is large compared with its market value, so the price makes sense."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain why Kestrel Renewables rose?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. Five upper circuits in a row prove that there is company news behind it."
+          },
+          {
+            "id": "b",
+            "text": "No. No clear company-specific reason was found; the only news is social media buzz."
+          },
+          {
+            "id": "c",
+            "text": "Yes. The extra surveillance explains the rise, since the exchange only watches rising stocks."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S13",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Hindmark Life Insurance's share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 7%, like Hindmark Bank, since both are in the same group."
+          },
+          {
+            "id": "b",
+            "text": "It fell sharply in the week that Hindmark Bank's results came out."
+          },
+          {
+            "id": "c",
+            "text": "It was roughly flat, up about 0.4%, close to the whole market."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Hindmark Life Insurance here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mixing it up with Hindmark Bank, a different company whose results came out this week."
+          },
+          {
+            "id": "b",
+            "text": "Hindmark Bank's 21% profit rise is also this insurer's profit, as they share a group name."
+          },
+          {
+            "id": "c",
+            "text": "Because both share a name, their share prices always move together day to day."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain that Hindmark Bank's results moved this stock?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. Both companies share the Hindmark name, so the bank's results explain its move."
+          },
+          {
+            "id": "b",
+            "text": "Yes. The insurer reaches customers through the bank's branches, so the bank's results are its results."
+          },
+          {
+            "id": "c",
+            "text": "No. The bank's results belong to a different company, and this stock barely moved this week."
+          }
+        ],
+        "correctOptionId": "c"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S14",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to Aushadh Pharma's share price over the past 5 trading days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose about 0.5%, the same as other pharma stocks and the whole market."
+          },
+          {
+            "id": "b",
+            "text": "It rose about 6%, mostly on 23 Jul, far more than pharma stocks."
+          },
+          {
+            "id": "c",
+            "text": "It rose about 6%, in line with all pharma stocks, spread evenly over the week."
+          }
+        ],
+        "correctOptionId": "b"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about Aushadh Pharma here?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The highway plan helps pharma companies, so the rise already has a clear explanation."
+          },
+          {
+            "id": "b",
+            "text": "Pharma stocks as a group rose about 6%."
+          },
+          {
+            "id": "c",
+            "text": "Reading a cause into timing: the big day matched an unrelated highway plan."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain that the government highway plan caused the rise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. Most of the rise came on the same day as the plan, so the plan caused it."
+          },
+          {
+            "id": "b",
+            "text": "No. Timing is not proof, and the plan is unrelated to pharma."
+          },
+          {
+            "id": "c",
+            "text": "Yes. Government plans lift every stock by the same amount on the day they come out."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  },
+  {
+    "scenarioId": "S15",
+    "questions": [
+      {
+        "id": "q1",
+        "kind": "what_happened",
+        "prompt": "What happened to your Coastline Bank holding between 24 Jul and 14 Aug?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It fell about 11% over three weeks while other banks and the whole market rose."
+          },
+          {
+            "id": "b",
+            "text": "It fell about 1%, much less than bank stocks and the whole market."
+          },
+          {
+            "id": "c",
+            "text": "It fell about 11%, close to bank stocks (about 10%) and the market (about 9%)."
+          }
+        ],
+        "correctOptionId": "c"
+      },
+      {
+        "id": "q2",
+        "kind": "main_risk",
+        "prompt": "What is the main risk to notice about this holding?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Your saved reason was that bank stocks were rising; they have since fallen about 10%."
+          },
+          {
+            "id": "b",
+            "text": "Coastline Bank has reported a big loss, which is why it fell more than the market."
+          },
+          {
+            "id": "c",
+            "text": "Its fall is far bigger than other banks' falls, so something is wrong at the company."
+          },
+          {
+            "id": "d",
+            "text": "An 11% fall means most of the money put into this holding is now gone."
+          }
+        ],
+        "correctOptionId": "a"
+      },
+      {
+        "id": "q3",
+        "kind": "cause_certain",
+        "prompt": "Is it certain that something at Coastline Bank caused the fall?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes. The holding fell, so the company itself has a problem that caused the fall."
+          },
+          {
+            "id": "b",
+            "text": "No. Most of the fall matches the whole market, and no company reason was found."
+          },
+          {
+            "id": "c",
+            "text": "Yes. The bank released news about its loans during these three weeks."
+          }
+        ],
+        "correctOptionId": "b"
+      }
+    ]
+  }
+]

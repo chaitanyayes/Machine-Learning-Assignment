@@ -1,0 +1,140 @@
+[
+  {
+    "id": "hindmark-bank",
+    "ticker": "HINDMARK",
+    "name": "Hindmark Bank",
+    "sector": "Private bank",
+    "sectorIndexId": "idx-bank",
+    "description": "A mid-sized private bank with about 900 branches, mostly in western and central India. It lends to households and small businesses and takes deposits.",
+    "isFictional": true,
+    "siblings": [
+      {
+        "id": "hindmark-life",
+        "relation": "Same business group, different company"
+      }
+    ]
+  },
+  {
+    "id": "coastline-bank",
+    "ticker": "COASTBANK",
+    "name": "Coastline Bank",
+    "sector": "Private bank",
+    "sectorIndexId": "idx-bank",
+    "description": "A regional private bank based in Kerala and coastal Karnataka. Most of its loans are home, gold and small-business loans.",
+    "isFictional": true
+  },
+  {
+    "id": "meridian-motors",
+    "ticker": "MERIDMOTOR",
+    "name": "Meridian Motors",
+    "sector": "Auto",
+    "sectorIndexId": "idx-auto",
+    "description": "Makes passenger cars and small commercial vans. Sells mainly in India and exports to a few markets in Africa and South Asia.",
+    "isFictional": true
+  },
+  {
+    "id": "northstar-infotech",
+    "ticker": "NSTARINFO",
+    "name": "Northstar Infotech",
+    "sector": "IT services",
+    "sectorIndexId": "idx-it",
+    "description": "An IT services company that builds and runs software for banks and retailers. Most of its revenue comes from clients in the US and Europe.",
+    "isFictional": true
+  },
+  {
+    "id": "skyreach-telecom",
+    "ticker": "SKYREACH",
+    "name": "Skyreach Telecom",
+    "sector": "Telecom",
+    "sectorIndexId": "idx-telecom",
+    "description": "A mobile and broadband operator in north and east India. It has borrowed heavily to pay for spectrum and network expansion.",
+    "isFictional": true
+  },
+  {
+    "id": "kirti-engineering",
+    "ticker": "KIRTIENG",
+    "name": "Kirti Engineering",
+    "sector": "Capital goods",
+    "sectorIndexId": "idx-capgoods",
+    "description": "Makes electrical and mechanical equipment for metro rail, power and water projects. Revenue depends on winning large government and private orders.",
+    "isFictional": true
+  },
+  {
+    "id": "sahyog-finance",
+    "ticker": "SAHYOGFIN",
+    "name": "Sahyog Finance",
+    "sector": "NBFC",
+    "sectorIndexId": "idx-finserv",
+    "description": "A non-bank lender that gives two-wheeler and small-business loans in smaller towns. It borrows from banks and the bond market to fund its loans.",
+    "isFictional": true
+  },
+  {
+    "id": "brightpath-learning",
+    "ticker": "BRIGHTPATH",
+    "name": "Brightpath Learning",
+    "sector": "Edtech",
+    "sectorIndexId": "idx-conssvc",
+    "description": "Sells online coaching for school and entrance exams through an app. It has made losses in each of the last three years.",
+    "isFictional": true
+  },
+  {
+    "id": "dhanvi-consumer",
+    "ticker": "DHANVICON",
+    "name": "Dhanvi Consumer",
+    "sector": "FMCG",
+    "sectorIndexId": "idx-fmcg",
+    "description": "Makes packaged foods, tea and personal-care products sold through local shops across India. Its brands are strongest in smaller towns.",
+    "isFictional": true
+  },
+  {
+    "id": "rangoli-paints",
+    "ticker": "RANGOLI",
+    "name": "Rangoli Paints",
+    "sector": "Paints",
+    "sectorIndexId": "idx-consdur",
+    "description": "Makes decorative paints for homes and some industrial coatings. It sells through about 30,000 dealers.",
+    "isFictional": true
+  },
+  {
+    "id": "prakriti-energy",
+    "ticker": "PRAKRITI",
+    "name": "Prakriti Energy",
+    "sector": "Energy",
+    "sectorIndexId": "idx-energy",
+    "description": "Refines crude oil and sells fuel through its own petrol pumps in western India. Its profits move with the gap between crude and fuel prices.",
+    "isFictional": true
+  },
+  {
+    "id": "kestrel-renewables",
+    "ticker": "KESTREL",
+    "name": "Kestrel Renewables",
+    "sector": "Small-cap renewables",
+    "sectorIndexId": "idx-energy",
+    "description": "A small company that installs rooftop solar panels for homes and shops. Its yearly revenue is small compared with its stock-market value.",
+    "isFictional": true
+  },
+  {
+    "id": "hindmark-life",
+    "ticker": "HINDMKLIFE",
+    "name": "Hindmark Life Insurance",
+    "sector": "Insurance",
+    "sectorIndexId": "idx-finserv",
+    "description": "A life insurer selling term, savings and pension plans. Many of its policies are sold in the branches of Hindmark Bank, which is a different company.",
+    "isFictional": true,
+    "siblings": [
+      {
+        "id": "hindmark-bank",
+        "relation": "Same business group, different company"
+      }
+    ]
+  },
+  {
+    "id": "aushadh-pharma",
+    "ticker": "AUSHADH",
+    "name": "Aushadh Pharma",
+    "sector": "Pharma",
+    "sectorIndexId": "idx-pharma",
+    "description": "Makes generic medicines for India and for export to regulated markets. Its largest products treat diabetes and heart conditions.",
+    "isFictional": true
+  }
+]

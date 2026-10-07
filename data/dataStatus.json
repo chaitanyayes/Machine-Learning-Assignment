@@ -1,0 +1,74 @@
+[
+  {
+    "companyId": "hindmark-bank",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "coastline-bank",
+    "asOf": "2026-08-14",
+    "status": "ok",
+    "note": "Prices continue to 14 Aug 2026 for the S15 holding. S02 views stop at 24 Jul 2026."
+  },
+  {
+    "companyId": "meridian-motors",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "northstar-infotech",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "skyreach-telecom",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "kirti-engineering",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "sahyog-finance",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "brightpath-learning",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "dhanvi-consumer",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "rangoli-paints",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "prakriti-energy",
+    "asOf": "2026-07-21",
+    "status": "delayed",
+    "note": "The price feed is three trading days behind."
+  },
+  {
+    "companyId": "kestrel-renewables",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "hindmark-life",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  },
+  {
+    "companyId": "aushadh-pharma",
+    "asOf": "2026-07-24",
+    "status": "ok"
+  }
+]
