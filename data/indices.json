@@ -1,0 +1,74 @@
+[
+  {
+    "id": "idx-market",
+    "name": "Market index (simulated, modelled on Nifty 50)",
+    "kind": "market",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-bank",
+    "name": "Bank index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-finserv",
+    "name": "Financial services index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-auto",
+    "name": "Auto index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-it",
+    "name": "IT index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-telecom",
+    "name": "Telecom index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-capgoods",
+    "name": "Capital goods index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-conssvc",
+    "name": "Consumer services index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-fmcg",
+    "name": "FMCG index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-consdur",
+    "name": "Consumer durables index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-energy",
+    "name": "Energy index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  },
+  {
+    "id": "idx-pharma",
+    "name": "Pharma index (simulated)",
+    "kind": "sector",
+    "isSimulated": true
+  }
+]

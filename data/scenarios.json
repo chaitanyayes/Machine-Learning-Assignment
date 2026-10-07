@@ -1,0 +1,198 @@
+[
+  {
+    "surface": "stock",
+    "id": "S01",
+    "companyId": "hindmark-bank",
+    "edgeCaseIds": [
+      1
+    ],
+    "title": "Sharp rise with genuine news",
+    "description": "Up about 7% in 5 days. Quarterly results came out inside the window; bank stocks rose about half as much.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "CLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S02",
+    "companyId": "coastline-bank",
+    "edgeCaseIds": [
+      2
+    ],
+    "title": "Rise with no company reason",
+    "description": "Up about 5% over a month with no company news; bank stocks moved about the same.",
+    "asOf": "2026-07-24",
+    "windowDays": 21,
+    "expectedAttributionLevel": "SECTOR_WIDE"
+  },
+  {
+    "surface": "stock",
+    "id": "S03",
+    "companyId": "meridian-motors",
+    "edgeCaseIds": [
+      3
+    ],
+    "title": "Spike from a temporary event",
+    "description": "Up about 9% in 5 days on news of joining a major index plus a large block deal. The business itself is unchanged.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "CLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S04",
+    "companyId": "northstar-infotech",
+    "edgeCaseIds": [
+      4
+    ],
+    "title": "Sharp fall after an outlook cut",
+    "description": "Down about 12% in 5 days after the company lowered its revenue outlook for the year.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "CLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S05",
+    "companyId": "skyreach-telecom",
+    "edgeCaseIds": [
+      5
+    ],
+    "title": "Contradictory reports",
+    "description": "Down about 5% in 5 days while two outlets report opposite things about a promoter stake sale.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "PARTIAL"
+  },
+  {
+    "surface": "stock",
+    "id": "S06",
+    "companyId": "kirti-engineering",
+    "edgeCaseIds": [
+      6
+    ],
+    "title": "Only outdated news",
+    "description": "Up modestly over a month. The only company news is an order win from about four months ago.",
+    "asOf": "2026-07-24",
+    "windowDays": 21,
+    "expectedAttributionLevel": "UNCLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S07",
+    "companyId": "sahyog-finance",
+    "edgeCaseIds": [
+      7
+    ],
+    "title": "Not enough information",
+    "description": "Up about 4% in 5 days with almost no news and several fundamentals missing. One news summary contains a prompt-injection string.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "UNCLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S08",
+    "companyId": "brightpath-learning",
+    "edgeCaseIds": [
+      12,
+      13
+    ],
+    "title": "The friend's tip",
+    "description": "Up about 40% in a month while the company makes losses, revenue is falling and promoters have pledged most of their shares.",
+    "asOf": "2026-07-24",
+    "windowDays": 21,
+    "expectedAttributionLevel": "UNCLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S09",
+    "companyId": "dhanvi-consumer",
+    "edgeCaseIds": [
+      14
+    ],
+    "title": "Weak price, steady business",
+    "description": "Down about 15% over 6 months along with other FMCG stocks, while profits kept growing and debt stayed low.",
+    "asOf": "2026-07-24",
+    "windowDays": 126,
+    "expectedAttributionLevel": "SECTOR_WIDE"
+  },
+  {
+    "surface": "stock",
+    "id": "S10",
+    "companyId": "rangoli-paints",
+    "edgeCaseIds": [],
+    "title": "Bonus issue, not a crash",
+    "description": "The quoted price roughly halved on the ex-date of a 1:1 bonus issue. Adjusted for the bonus, the stock barely moved.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "MARKET_WIDE"
+  },
+  {
+    "surface": "stock",
+    "id": "S11",
+    "companyId": "prakriti-energy",
+    "edgeCaseIds": [
+      17
+    ],
+    "title": "Delayed, then unavailable data",
+    "description": "The price feed is three trading days behind. Checking for an update makes it unavailable.",
+    "asOf": "2026-07-21",
+    "windowDays": 5,
+    "expectedAttributionLevel": "MARKET_WIDE"
+  },
+  {
+    "surface": "stock",
+    "id": "S12",
+    "companyId": "kestrel-renewables",
+    "edgeCaseIds": [
+      12
+    ],
+    "title": "Upper circuit five days running",
+    "description": "Hit the 5% upper price limit five sessions in a row. Revenue is tiny and the only news is social-media buzz.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "UNCLEAR"
+  },
+  {
+    "surface": "stock",
+    "id": "S13",
+    "companyId": "hindmark-life",
+    "edgeCaseIds": [],
+    "title": "Similar name, different company",
+    "description": "Roughly flat. Shares a group name with Hindmark Bank, whose results came out this week.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "MARKET_WIDE"
+  },
+  {
+    "surface": "stock",
+    "id": "S14",
+    "companyId": "aushadh-pharma",
+    "edgeCaseIds": [
+      15
+    ],
+    "title": "Timing that looks like a cause",
+    "description": "Rose about 6%, mostly on the same day as unrelated government news.",
+    "asOf": "2026-07-24",
+    "windowDays": 5,
+    "expectedAttributionLevel": "UNCLEAR"
+  },
+  {
+    "id": "S15",
+    "companyId": "coastline-bank",
+    "edgeCaseIds": [],
+    "title": "Holding down about 11%",
+    "description": "Three weeks after buying, the holding is down about 11%, mostly because the whole market fell.",
+    "asOf": "2026-08-14",
+    "windowDays": 15,
+    "expectedAttributionLevel": "MARKET_WIDE",
+    "surface": "holding",
+    "holding": {
+      "id": "H1",
+      "quantity": 12,
+      "buyDate": "2026-07-24",
+      "seededReason": "Bank stocks were rising and this one looked steady."
+    }
+  }
+]

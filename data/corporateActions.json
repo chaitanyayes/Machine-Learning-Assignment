@@ -1,0 +1,48 @@
+[
+  {
+    "id": "A1",
+    "companyId": "rangoli-paints",
+    "type": "bonus",
+    "exDate": "2026-07-22",
+    "details": "1:1 bonus issue: one extra share for every share held. The quoted price halves on the ex-date; the value of a holding does not change.",
+    "shareMultiplier": {
+      "after": 2,
+      "before": 1
+    }
+  },
+  {
+    "id": "A2",
+    "companyId": "rangoli-paints",
+    "type": "dividend",
+    "exDate": "2025-08-01",
+    "details": "Final dividend of ₹8 per share.",
+    "shareMultiplier": null
+  },
+  {
+    "id": "A3",
+    "companyId": "hindmark-bank",
+    "type": "dividend",
+    "exDate": "2026-06-19",
+    "details": "Final dividend of ₹12 per share.",
+    "shareMultiplier": null
+  },
+  {
+    "id": "A4",
+    "companyId": "dhanvi-consumer",
+    "type": "split",
+    "exDate": "2024-09-13",
+    "details": "Stock split from face value ₹10 to ₹2: each share became five shares.",
+    "shareMultiplier": {
+      "after": 5,
+      "before": 1
+    }
+  },
+  {
+    "id": "A5",
+    "companyId": "dhanvi-consumer",
+    "type": "dividend",
+    "exDate": "2026-06-05",
+    "details": "Final dividend of ₹22 per share.",
+    "shareMultiplier": null
+  }
+]

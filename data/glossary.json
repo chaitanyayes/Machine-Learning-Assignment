@@ -1,0 +1,485 @@
+[
+  {
+    "id": "share",
+    "term": "Share",
+    "aliases": [
+      "shares",
+      "stock",
+      "stocks",
+      "equity share",
+      "equity shares"
+    ],
+    "definition": "A share is one small unit of ownership in a company, and its price changes as people trade it on a stock exchange."
+  },
+  {
+    "id": "stock-exchange",
+    "term": "Stock exchange",
+    "aliases": [
+      "stock exchanges",
+      "exchange",
+      "stock market",
+      "share market",
+      "share bazaar"
+    ],
+    "definition": "A stock exchange is the official marketplace where shares are traded, with rules that companies and traders on it must follow."
+  },
+  {
+    "id": "index",
+    "term": "Index",
+    "aliases": [
+      "indices",
+      "indexes",
+      "market index",
+      "benchmark index",
+      "benchmark"
+    ],
+    "definition": "An index is a single number that tracks the combined prices of a chosen group of shares, so it shows how the market as a whole moved."
+  },
+  {
+    "id": "sector-index",
+    "term": "Sector index",
+    "aliases": [
+      "sector indices",
+      "sectoral index",
+      "sector benchmark"
+    ],
+    "definition": "A sector index tracks the combined prices of companies in one industry, such as banks or IT, so you can compare a stock with similar companies."
+  },
+  {
+    "id": "market-capitalisation",
+    "term": "Market capitalisation",
+    "aliases": [
+      "market cap",
+      "market capitalization",
+      "mcap",
+      "m-cap"
+    ],
+    "definition": "Market capitalisation is the total value the stock market puts on a company: its share price multiplied by the total number of its shares."
+  },
+  {
+    "id": "pe-ratio",
+    "term": "P/E ratio",
+    "aliases": [
+      "PE",
+      "P/E",
+      "PE ratio",
+      "price to earnings",
+      "price to earnings ratio",
+      "price-earnings ratio",
+      "PE multiple"
+    ],
+    "definition": "The P/E ratio is the share price divided by the profit per share over the last year, showing how many rupees investors pay for each rupee of profit."
+  },
+  {
+    "id": "sector-median-pe",
+    "term": "Sector median P/E",
+    "aliases": [
+      "sector P/E",
+      "sector PE",
+      "sector median PE",
+      "median P/E",
+      "industry P/E"
+    ],
+    "definition": "The sector median P/E is the middle value of the P/E ratios of companies in the same industry, so half of them are higher and half are lower."
+  },
+  {
+    "id": "earnings-per-share",
+    "term": "Earnings per share",
+    "aliases": [
+      "EPS",
+      "earning per share"
+    ],
+    "definition": "Earnings per share is a company's net profit for a period divided by the number of its shares, so it shows the profit behind each share."
+  },
+  {
+    "id": "revenue",
+    "term": "Revenue",
+    "aliases": [
+      "sales",
+      "turnover",
+      "top line",
+      "topline",
+      "total income"
+    ],
+    "definition": "Revenue is the total money a company earns from selling its products or services in a period, before any costs are taken out."
+  },
+  {
+    "id": "net-profit",
+    "term": "Net profit",
+    "aliases": [
+      "profit",
+      "net income",
+      "PAT",
+      "profit after tax",
+      "bottom line",
+      "net loss",
+      "munafa"
+    ],
+    "definition": "Net profit is the money left from revenue after all costs, interest and taxes are paid; if costs are larger, the result is a net loss."
+  },
+  {
+    "id": "net-margin",
+    "term": "Net margin",
+    "aliases": [
+      "profit margin",
+      "net profit margin",
+      "PAT margin"
+    ],
+    "definition": "Net margin is net profit as a percentage of revenue, so a 10% net margin means ₹10 of profit from every ₹100 of sales."
+  },
+  {
+    "id": "roe",
+    "term": "ROE",
+    "aliases": [
+      "return on equity"
+    ],
+    "definition": "ROE (return on equity) is a year's net profit as a percentage of shareholders' money in the company, which is what it owns minus what it owes."
+  },
+  {
+    "id": "debt-to-equity",
+    "term": "Debt to equity",
+    "aliases": [
+      "debt/equity",
+      "D/E",
+      "debt-to-equity",
+      "debt to equity ratio",
+      "debt-equity ratio"
+    ],
+    "definition": "Debt to equity compares what a company has borrowed with shareholders' money in it, so a ratio of 2 means it owes ₹2 for every ₹1 of shareholders' money."
+  },
+  {
+    "id": "promoter",
+    "term": "Promoter",
+    "aliases": [
+      "promoters",
+      "promoter group"
+    ],
+    "definition": "A promoter is the person, family or group that started or controls a company and usually owns a large part of its shares."
+  },
+  {
+    "id": "promoter-holding",
+    "term": "Promoter holding",
+    "aliases": [
+      "promoter stake",
+      "promoter shareholding",
+      "promoter holdings",
+      "promoter share"
+    ],
+    "definition": "Promoter holding is the percentage of a company's shares that its promoters own, reported to the stock exchange every quarter."
+  },
+  {
+    "id": "promoter-pledge",
+    "term": "Promoter pledge",
+    "aliases": [
+      "pledge",
+      "pledged shares",
+      "pledging",
+      "share pledge",
+      "promoter pledging",
+      "girvi"
+    ],
+    "definition": "Promoters pledge shares when they hand them to a lender as security for a loan; the lender can take the shares if the loan is not repaid."
+  },
+  {
+    "id": "nbfc",
+    "term": "NBFC",
+    "aliases": [
+      "NBFCs",
+      "non-banking financial company",
+      "non-banking finance company",
+      "non-bank lender"
+    ],
+    "definition": "An NBFC, or non-banking financial company, lends money like a bank but cannot offer savings or current accounts, so it mostly borrows from banks and investors."
+  },
+  {
+    "id": "net-interest-income",
+    "term": "Net interest income",
+    "aliases": [
+      "NII"
+    ],
+    "definition": "Net interest income is the interest a bank or lender earns on its loans minus the interest it pays on deposits and borrowings."
+  },
+  {
+    "id": "gross-npa",
+    "term": "Bad loans (gross NPA)",
+    "aliases": [
+      "bad loans",
+      "NPA",
+      "NPAs",
+      "gross NPA",
+      "GNPA",
+      "non-performing assets",
+      "non-performing loans"
+    ],
+    "definition": "Bad loans, or gross NPAs (non-performing assets), are loans whose borrowers have missed payments for more than 90 days, often shown as a percentage of all loans."
+  },
+  {
+    "id": "quarterly-results",
+    "term": "Quarterly results",
+    "aliases": [
+      "results",
+      "quarterly earnings",
+      "quarter results",
+      "financial results",
+      "Q1 results"
+    ],
+    "definition": "Quarterly results are the revenue, profit and other key figures a company reports to the stock exchange every three months."
+  },
+  {
+    "id": "revenue-outlook",
+    "term": "Revenue outlook (guidance)",
+    "aliases": [
+      "guidance",
+      "revenue guidance",
+      "revenue outlook",
+      "outlook",
+      "growth outlook"
+    ],
+    "definition": "A revenue outlook, also called guidance, is the company's own estimate of how much its revenue may grow over the coming year."
+  },
+  {
+    "id": "dividend",
+    "term": "Dividend",
+    "aliases": [
+      "dividends",
+      "final dividend",
+      "interim dividend",
+      "dividend per share"
+    ],
+    "definition": "A dividend is a part of a company's profit paid out in cash to shareholders, usually stated as rupees per share."
+  },
+  {
+    "id": "bonus-issue",
+    "term": "Bonus issue",
+    "aliases": [
+      "bonus",
+      "bonus shares",
+      "bonus share",
+      "1:1 bonus"
+    ],
+    "definition": "A bonus issue gives existing shareholders extra free shares, so the share count goes up and the price per share drops, but the total value held stays the same."
+  },
+  {
+    "id": "stock-split",
+    "term": "Stock split",
+    "aliases": [
+      "split",
+      "share split",
+      "stock splits"
+    ],
+    "definition": "A stock split divides each share into several smaller shares, so you hold more shares at a lower price each, and the total value does not change."
+  },
+  {
+    "id": "ex-date",
+    "term": "Ex-date",
+    "aliases": [
+      "ex date",
+      "exdate",
+      "ex-dividend date",
+      "ex-bonus date"
+    ],
+    "definition": "The ex-date is the first trading day on which shares bought no longer come with an announced dividend or bonus, so the quoted price usually adjusts that day."
+  },
+  {
+    "id": "record-date",
+    "term": "Record date",
+    "aliases": [
+      "record-date"
+    ],
+    "definition": "The record date is the day a company checks its list of shareholders to decide who receives an announced dividend, bonus or split."
+  },
+  {
+    "id": "corporate-action",
+    "term": "Corporate action",
+    "aliases": [
+      "corporate actions",
+      "corp action"
+    ],
+    "definition": "A corporate action is a company decision that changes what shareholders hold or receive, such as a dividend, bonus issue or stock split."
+  },
+  {
+    "id": "upper-circuit",
+    "term": "Upper circuit",
+    "aliases": [
+      "upper circuits",
+      "upper circuit limit",
+      "upper price band"
+    ],
+    "definition": "An upper circuit is the highest price the exchange allows a stock to reach in one day; at that price there are often many buyers and few sellers."
+  },
+  {
+    "id": "lower-circuit",
+    "term": "Lower circuit",
+    "aliases": [
+      "lower circuits",
+      "lower circuit limit",
+      "lower price band"
+    ],
+    "definition": "A lower circuit is the lowest price the exchange allows a stock to reach in one day; at that price there are often many sellers and few buyers."
+  },
+  {
+    "id": "surveillance-measures",
+    "term": "Surveillance measures",
+    "aliases": [
+      "surveillance",
+      "extra surveillance",
+      "surveillance list",
+      "ASM",
+      "additional surveillance measures"
+    ],
+    "definition": "Surveillance measures are extra rules an exchange puts on a stock with unusual price moves, such as asking traders to pay the full amount upfront."
+  },
+  {
+    "id": "block-deal",
+    "term": "Block deal",
+    "aliases": [
+      "block deals",
+      "block trade"
+    ],
+    "definition": "A block deal is one large trade of a company's shares between big investors, done in a separate time slot and made public by the exchange."
+  },
+  {
+    "id": "index-inclusion",
+    "term": "Index inclusion",
+    "aliases": [
+      "index addition",
+      "added to an index",
+      "joining an index",
+      "index entry"
+    ],
+    "definition": "Index inclusion is when a stock is added to an index, so funds that copy that index need to purchase its shares, usually around a set date."
+  },
+  {
+    "id": "volatility",
+    "term": "Volatility",
+    "aliases": [
+      "volatile",
+      "price swings",
+      "annualised volatility",
+      "annualized volatility"
+    ],
+    "definition": "Volatility measures how much a stock's price usually swings up and down; a higher number means bigger moves in both directions."
+  },
+  {
+    "id": "drawdown",
+    "term": "Drawdown",
+    "aliases": [
+      "drawdowns",
+      "draw down",
+      "max drawdown",
+      "maximum drawdown",
+      "biggest fall"
+    ],
+    "definition": "A drawdown is a fall in price from a previous high point to a later low point, shown as a percentage of the high."
+  },
+  {
+    "id": "typical-bad-month",
+    "term": "A typical bad month",
+    "aliases": [
+      "typical bad month",
+      "bad month",
+      "10th-percentile month",
+      "10th percentile month"
+    ],
+    "definition": "A typical bad month is the 10th-percentile month: in the last three years, only about one month in ten was worse than this."
+  },
+  {
+    "id": "annualised",
+    "term": "Annualised",
+    "aliases": [
+      "annualized",
+      "per annum",
+      "yearly rate"
+    ],
+    "definition": "Annualised means a figure has been converted to a yearly rate, so numbers measured over different lengths of time can be compared fairly."
+  },
+  {
+    "id": "trading-session",
+    "term": "Trading session",
+    "aliases": [
+      "trading sessions",
+      "trading day",
+      "trading days",
+      "market day"
+    ],
+    "definition": "A trading session is one day the stock market is open for trading, so weekends and market holidays do not count."
+  },
+  {
+    "id": "small-cap",
+    "term": "Small-cap",
+    "aliases": [
+      "small cap",
+      "smallcap",
+      "small caps",
+      "small-cap stock",
+      "small-cap company"
+    ],
+    "definition": "A small-cap is a company with a small market capitalisation (total stock-market value); its shares often swing more and can be harder to trade in large amounts."
+  },
+  {
+    "id": "liquidity",
+    "term": "Liquidity",
+    "aliases": [
+      "liquid",
+      "illiquid",
+      "illiquidity",
+      "low liquidity"
+    ],
+    "definition": "Liquidity is how easily you can trade a share without moving its price much; a share with few daily trades has low liquidity."
+  },
+  {
+    "id": "exchange-filing",
+    "term": "Exchange filing",
+    "aliases": [
+      "filing",
+      "filings",
+      "stock exchange filing",
+      "exchange disclosure",
+      "disclosure",
+      "regulatory filing"
+    ],
+    "definition": "An exchange filing is an official statement a company sends to the stock exchange, such as its results, new orders or replies to exchange questions."
+  },
+  {
+    "id": "agm",
+    "term": "AGM",
+    "aliases": [
+      "annual general meeting",
+      "AGM notice"
+    ],
+    "definition": "An AGM, or annual general meeting, is the yearly meeting where a company's shareholders vote on items such as the yearly accounts, dividends and directors."
+  },
+  {
+    "id": "stale-news",
+    "term": "Stale news",
+    "aliases": [
+      "old news",
+      "outdated news",
+      "stale"
+    ],
+    "definition": "Stale news is news older than 30 days; prices usually react to news within days, so old news rarely explains a recent move."
+  },
+  {
+    "id": "adjusted-price",
+    "term": "Adjusted price",
+    "aliases": [
+      "adjusted prices",
+      "bonus-adjusted price",
+      "split-adjusted price",
+      "price adjustment"
+    ],
+    "definition": "An adjusted price is a past price recalculated for a bonus issue or stock split, so the chart compares like with like across that date."
+  },
+  {
+    "id": "growth-rate-3y",
+    "term": "3-year growth rate",
+    "aliases": [
+      "CAGR",
+      "compound annual growth rate",
+      "3-year CAGR",
+      "3 year growth",
+      "three-year growth rate"
+    ],
+    "definition": "The 3-year growth rate is the steady yearly rate that would take a figure, such as revenue or profit, from its level three years ago to its level today."
+  }
+]

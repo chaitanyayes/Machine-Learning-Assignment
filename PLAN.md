@@ -2,7 +2,7 @@
 
 Phase 0 deliverable. This file describes what will be built, how the parts connect, and the order of work. It contains no app code. Companion files: `DESIGN.md` (visual and interaction design) and `DECISIONS.md` (one line per non-obvious choice).
 
-**Status:** waiting for approval. Open questions are in §1. Each one includes the option I recommend, so you can approve with "go with your recommendations" or answer individually.
+**Status:** approved on 6 Oct 2026, with the recommended option for every open question in §1. Q3 (API key) is still pending on your side: Phase 2 needs `ANTHROPIC_API_KEY` to generate the cached briefs.
 
 ---
 
@@ -202,7 +202,7 @@ These are the "shape of the last N days" targets that the generator must hit. Ph
 | S03 | 5 days | +9.0% | +1.0% | +0.8% | Index-inclusion news plus a block-deal filing; tagged as a temporary event | CLEAR |
 | S04 | 5 days | −12.0% | −2.0% | +0.8% | Company release cutting its revenue outlook | CLEAR |
 | S05 | 5 days | −5.0% | −0.5% | +0.8% | Two outlets with contradictory stake-sale reports | PARTIAL (conflicts cap the level here) |
-| S06 | 1 month | +4.0% | +1.0% | +1.5% | Order win from 20 Mar (126 days old, stale) | UNCLEAR |
+| S06 | 1 month | +4.0% | +1.0% | +1.5% | Order win from 18 Mar (128 days old, stale) | UNCLEAR |
 | S07 | 5 days | +4.0% | +0.5% | +0.8% | One routine AGM notice, which carries the injection string. ROE, pledge and last results date are null | UNCLEAR |
 | S08 | 1 month | +40% | +2.0% | +1.5% | An exchange clarification filing ("no undisclosed information") plus social-media commentary | UNCLEAR |
 | S09 | 6 months | −15% | −13% | +4.0% | None. Fundamentals are steady: 3-year profit growth about 12%, debt/equity 0.1 | SECTOR_WIDE |
@@ -251,7 +251,7 @@ All functions are pure. Each takes a series that has already been cut at `asOf`,
 
 | Module | Output |
 |---|---|
-| `returns.ts` | 1D, 1W, 1M, 6M, 1Y and 3Y simple returns for the stock, market and sector. Each period has a defined trading-day count (1W = 5, 1M = 21, 6M = 126, 1Y = 252, 3Y = 756), and a period with too little history returns `null`. |
+| `returns.ts` | 1D, 1W, 1M, 6M, 1Y and 3Y returns for the stock, market and sector. 1D is the previous session; the others are calendar look-backs (7 days, 1/6/12/36 months), as brokerage apps show them. A period with too little history returns `null`. Scenario windows are counted in trading sessions (`windowReturn`). |
 | `decompose.ts` | Splits the window move additively: market part = R_m; sector part = R_sector − R_m; company-specific residual = R_stock − R_sector. The three parts sum exactly to R_stock. I chose this because a beginner can follow it ("other banks rose 3.0%, the whole market rose 0.8%"). A regression beta would be more correct but too noisy and too hard to explain. Documented in `DECISIONS.md`. |
 | `attribution.ts` | See the rules below this table. |
 | `risk.ts` | Annualised volatility (daily log returns × √252, over 3 years); max drawdown over 3 years; worst calendar month; 10th-percentile monthly return over calendar months; and the share of rolling 126-day windows with a peak-to-trough fall of 15% or more. |
